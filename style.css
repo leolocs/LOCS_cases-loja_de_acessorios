@@ -194,6 +194,30 @@ footer{
     padding: 50px;
 }
 
+
+/* ############### PÁGINA CARRINHO COMPRAS ############### */
+.checkout-qtd-input{
+    width: 50px;
+}
+
+.checkout-item-img{
+    width: 150px;
+}
+
+.lista-compras-carrinho{
+    margin-top: 20px;
+}
+
+.resumo-lista-carrinho{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.user-registration-form{
+    margin: 20px;
+}
+
 /* Até essa resolução será ajustado para celular */
 @media screen and (max-width:768px){
     .nav-menu > .navbar{

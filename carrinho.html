@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Carrinho de compras</title>
+</head>
+<body>
+    <header>
+        <a href="#home"><img src="" alt="Locs Cases logo">LOCS Cases</a>
+        <input type="text" placeholder="Buscar produtos...">
+        <div class="menu">
+            <nav class="nav-menu">
+                <ul class="navbar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#categorias">Categorias</a></li>
+                </ul>
+            </nav>
+            <div id="menuHamburguer" class="menu-hamburguer"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </header>
+    <main>
+        <div class=" lista-compras-carrinho row">
+            <div class="container text-center col-8">
+                <table class="table     table-hover">
+                    <thead>
+                        <th>imagem</th>
+                        <th>nome</th>
+                        <th>Qtd</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img class="checkout-item-img" src="./iphone 12 Pro 512gb.webp" alt=""></td>
+                            <td>Iphone 12</td>
+                            <td><input class="checkout-qtd-input" type="number" value="1"></td>
+                        </tr>
+                        <tr>
+                            <td><img class="checkout-item-img" src="./iphone 13 256gb.webp" alt=""></td>
+                            <td>Iphone 13</td>
+                            <td><input class="checkout-qtd-input" type="number" value="1"></td>
+                        </tr>
+                        <tr>
+                            <td><img class="checkout-item-img" src="./iphone 11.webp" alt=""></td>
+                            <td>Iphone 11</td>
+                            <td><input class="checkout-qtd-input" type="number" value="1"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="resumo-lista-carrinho col-4">
+                <h3>RESUMO</h3>
+            </div>
+        </div>
+        <div class="user-registration-form container">
+            <h3>Cadastro de cliente</h3>
+            <form class="row g-3">
+                <div class="col-md-3">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-3">
+                  <label for="inputPassword4" class="form-label">Senha</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-6">
+                  <label for="inputAddress" class="form-label">Endereço</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="Rua...">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputCity" class="form-label">Cidade</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Estado</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Escolha...</option>
+                    <option>CE</option>
+                    <option>AL</option>
+                    <option>BA</option>
+                    <option>RJ</option>
+                    <option>PB</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">CEP</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </div>
+              </form>
+        </div>
+    </main>
+</body>
+</html>
